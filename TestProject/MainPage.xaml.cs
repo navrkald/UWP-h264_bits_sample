@@ -18,6 +18,8 @@ using Windows.Media.MediaProperties;
 using Windows.Storage.Pickers;
 using Windows.Storage;
 using System.Threading.Tasks;
+using FFmpegInterop;
+using Windows.Media.Core;
 
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -31,6 +33,7 @@ namespace TestProject
     {
         private MediaCapture m_mediaCapture;
         private InMemoryRandomAccessStream m_mediaStream;
+        private FFmpegInteropMSS m_FFmpegMSS;
 
         public MainPage()
         {
@@ -38,7 +41,8 @@ namespace TestProject
 
             m_mediaCapture = new MediaCapture();
             m_mediaStream = new InMemoryRandomAccessStream();
-            //VideoDeviceController.GetAvailableMediaStreamProperties
+            
+            //
         }
 
         
@@ -94,6 +98,14 @@ namespace TestProject
                     await FileIO.WriteBytesAsync(mediaFile, buffer);
                 }
             }
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            m_FFmpegMSS = FFmpegInteropMSS.CreateFFmpegInteropMSSFromStream(m_mediaStream, false, false);
+            MediaStreamSource mss = m_FFmpegMSS.GetMediaStreamSource();
+            mediaElement1.SetMediaStreamSource(mss);
+
         }
     }
 }
