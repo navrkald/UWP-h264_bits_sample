@@ -2,27 +2,22 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>c:\users\navrkald\uwpexamples\testproject\testproject\testproject\mainpage.xaml.cs</string>
+      <string>C:\Users\navrkald\UWPExamples\TestProject\TestProject\TestProject\MainPage.xaml.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\cguid.h</string>
+      <string>FFmpegInterop\FFmpegInterop\Win10\FFmpegInterop\FFmpegInterop.vcxproj</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\Users\navrkald\UWPExamples\TestProject\TestProject\packages\FFmpeg.Win10.3.1.3\include\libavcodec\avcodec.h</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\Users\navrkald\UWPExamples\TestProject\TestProject\FFmpegInterop\FFmpegInterop\Source\FFmpegReader.cpp</string>
-      <string>C:\Users\navrkald\UWPExamples\TestProject\TestProject\FFmpegInterop\FFmpegInterop\Source\FFmpegReader.h</string>
+      <string>C:\Users\navrkald\UWPExamples\TestProject\TestProject\TestProject\Package.appxmanifest</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\Users\navrkald\UWPExamples\TestProject\TestProject\FFmpegInterop\FFmpegInterop\Source\FFmpegInteropMSS.cpp</string>
-      <string>C:\Users\navrkald\UWPExamples\TestProject\TestProject\FFmpegInterop\FFmpegInterop\Source\FFmpegInteropMSS.h</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\navrkald\uwpexamples\testproject\testproject\ffmpeginterop\ffmpeg\libavutil\common.h</string>
+      <string>c:\Users\navrkald\UWPExamples\TestProject\TestProject\FFmpegInterop\ffmpeg\libavcodec\avcodec.h</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\navrkald\UWPExamples\TestProject\TestProject\FFmpegInterop\FFmpegInterop\Source\MediaSampleProvider.h</string>
+      <string>TestProject\TestProject.csproj</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
